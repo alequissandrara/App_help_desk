@@ -1,0 +1,6 @@
+**Implementando segurança no beck-end**
+
+dentro do diretório: "c:/xampp"
+
+-C:\xampp\app_help_desk_sec (será o diretório de arquivos e scripts sigilosos)
+-C:\xampp\htdocs\App_help_desk (diretório público)

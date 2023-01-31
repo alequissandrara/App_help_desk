@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+    /*Página de Login*/
+.fundo-degrade{
+    width: auto;
+
+    background: linear-gradient(to right,rgb(26, 26, 114), #aa1522, #107878, rgb(2, 241, 122));
+    background-size: 500% 100%;
+
+    animation-name: background;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes background{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+h3.title-logo{
+    margin-left: 15px;
+    -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s alternate both;
+	        animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s alternate both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+    /*Home do Help desck*/
+.card-home {
+    padding: 30px 0 0 0;
+    width: 100%;
+    margin: 0 auto;
+}
+a.title_icon_home{
+    text-decoration: none;
+}
+
+h5.title_icon_home {
+    color: #17A2B8;
+    text-decoration: none;
+    margin-left: -35px;
+}
+
+.fundo-degrade-home{
+    background: #00ffff; 
+    background: -webkit-linear-gradient(to right, #00ffff, #92fe9d); 
+    background: linear-gradient(to right, #00ffff, #92fe9d);
+}
+
+
+
+    /*Abrir chamado*/
+.card-abrir-chamado{
+    padding: 30px 0 0 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fundo-degrade-chamado{
+  background: #0347a0; 
+  background: -webkit-linear-gradient(to right, #0347a0, #00ffff); 
+  background: linear-gradient(to right, #0347a0, #00ffff);
+ 
+}
+
+
+    /*Consultar chamado*/
+.card-consultar-chamado {
+    padding: 30px 0 0 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fundo-degrade-consultar{
+  background: #92fe9d; 
+  background: -webkit-linear-gradient(to right, #92fe9d, #68da26); 
+  background: linear-gradient(to right, #92fe9d, #68da26);
+}
+
+  /*Login*/
+.card-login {
+    padding: 30px 0 0 0;
+    width: 350px;
+    margin: 0 auto;
+}
