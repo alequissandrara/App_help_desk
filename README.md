@@ -30,7 +30,7 @@ O objetivo do desenvolvimento deste app em PHP é aplicar meus conhecimentos adq
 
 - Contas de usuário e administrador
 
-📷 Este projeto inclui imagens ilustrativas do sistema:
+### 📷 Este projeto inclui imagens ilustrativas do sistema:
 
 ![image](https://user-images.githubusercontent.com/70325643/215650056-5d9d86fb-f993-4f84-a75e-518bd45f0bcd.png)
 ![image](https://user-images.githubusercontent.com/70325643/215650100-4e604b0b-ae78-4cd0-850e-d78299948bbe.png)
